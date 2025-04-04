@@ -7,3 +7,5 @@ COPY target/*.war .
 EXPOSE 8081
 
 ENTRYPOINT ["catalina.sh", "run"]
+
+
