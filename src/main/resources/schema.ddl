@@ -89,8 +89,6 @@ CREATE TABLE `hospital`.`discharge_patient` (
 ALTER TABLE `hospital`.`admit_patient` 
 ADD COLUMN `Admit_And_Discharge_Status` VARCHAR(45) NOT NULL AFTER `admit_Date`;
 
-
---Anu Muralasetti
 CREATE TABLE `treatment_details` (
   `id` int NOT NULL AUTO_INCREMENT,
   `admittance_id` int DEFAULT NULL,
@@ -104,4 +102,4 @@ CREATE TABLE `treatment_details` (
   `created_at` datetime DEFAULT NULL,
   
   PRIMARY KEY (`id`)
-)
+);
